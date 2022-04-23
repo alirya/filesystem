@@ -1,6 +1,6 @@
 import {PathLike} from "fs";
 
-export default function Exists(valid : boolean, path : PathLike) : string {
+export default function ExistsParameters(valid : boolean, path : PathLike) : string {
 
     let string = (<any>path).toString();
 

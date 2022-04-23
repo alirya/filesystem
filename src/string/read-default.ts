@@ -1,6 +1,7 @@
 import {existsSync, PathLike, readFileSync, writeFileSync} from "fs";
 
 /**
+ * @deprecated
  * read {@param file} content, if not exists value from {@param source} is
  * returned and written to {@param file}
  *

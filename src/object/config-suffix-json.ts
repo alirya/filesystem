@@ -1,8 +1,8 @@
 import {PathLike} from "fs";
-import ConfigFile from "./config-file";
 import ConfigSuffix from "./config-suffix";
 
 /**
+ * @deprecated
  * Wrapper for {@link ConfigFile} for json
  *
  * @param file

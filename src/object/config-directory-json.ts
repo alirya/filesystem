@@ -2,6 +2,7 @@ import {PathLike} from "fs";
 import ConfigDirectory from "./config-directory";
 
 /**
+ * @deprecated
  * Wrapper for {@link ConfigDirectory} for json
  *
  * @param directory

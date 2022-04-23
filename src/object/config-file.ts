@@ -1,7 +1,8 @@
 import {copyFileSync, existsSync, PathLike} from "fs";
-import Parser from "./parse";
+import Parser from "./parse-async-parameters";
 
 /**
+ * @deprecated
  * load and parse config file, if {@param file} is not exists {@param example} will be used
  * for sources and copied to {@param file}
  *

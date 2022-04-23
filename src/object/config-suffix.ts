@@ -2,6 +2,7 @@ import {PathLike} from "fs";
 import ConfigFile from "./config-file";
 
 /**
+ * @deprecated
  * Wrapper for {@link ConfigFile}
  *
  * @param file

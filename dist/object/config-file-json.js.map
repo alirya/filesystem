@@ -1,1 +1,0 @@
-{"version":3,"file":"config-file-json.js","sourceRoot":"","sources":["../../src/object/config-file-json.ts"],"names":[],"mappings":"AACA,OAAO,UAAU,MAAM,eAAe,CAAC;AAEvC;;;;;;;;;;;GAWG;AAEH,MAAM,CAAC,OAAO,UAAU,cAAc,CAClC,IAAe,EACf,OAAkB,EAClB,OAA2C;IAG3C,OAAO,UAAU,CAAC,IAAI,EAAE,OAAO,EAAE,CAAC,IAAa,EAAE,EAAE,CAAC,IAAI,CAAC,KAAK,CAAC,IAAI,EAAE,OAAO,CAAC,CAAC,CAAA;AAElF,CAAC"}
