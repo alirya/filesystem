@@ -2,7 +2,7 @@
   "random": false,
   "spec_dir": "dist-spec",
   "spec_files": [
-    "**/*.spec.js",
+    "**/*.spec.debug.js",
     "!**/entity"
   ],
   "stopSpecOnExpectationFailure": false,
