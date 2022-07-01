@@ -1,5 +1,5 @@
-import {PathLike} from "fs";
-import ConfigFile from "./config-file";
+import {PathLike} from 'fs';
+import ConfigFile from './config-file';
 
 /**
  * @deprecated
@@ -19,5 +19,5 @@ export default function ConfigSuffix(
     parser : (content:string)=>object
 ) : object {
 
-    return ConfigFile(file, file.toString() + suffix.toString(), parser)
+    return ConfigFile(file, file.toString() + suffix.toString(), parser);
 }

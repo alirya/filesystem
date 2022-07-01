@@ -1,9 +1,9 @@
-import ConfigDirectory from "../../dist/object/config-directory-json";
-import Example from "../boolean/example";
-import {existsSync, unlinkSync} from "fs";
-import Json from "../../dist/object/json";
+import ConfigDirectory from '../../dist/object/config-directory-json';
+import Example from '../boolean/example';
+import {existsSync, unlinkSync} from 'fs';
+import Json from '../../dist/object/json-sync';
 
-it("enable console log", () => {spyOn(console, 'log').and.callThrough()});
+it('enable console log', () => {spyOn(console, 'log').and.callThrough();});
 
 
 let directory = __dirname;
@@ -31,7 +31,7 @@ describe('destination not exists', ()=>{
 
     it(`get by Json`, () => {
 
-        let real = Json(directory + '/example.json');
+        let real = Json.Parameters(directory + '/example.json');
         expect(Example(real)).toBeTrue();
 
         if(Example(real)) {
@@ -45,7 +45,7 @@ describe('destination not exists', ()=>{
         unlinkSync(directory + '/example.json');
     });
 
-})
+});
 
 it(`both exists`, () => {
 

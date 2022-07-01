@@ -1,7 +1,7 @@
-import ReadDefault from "../../dist/string/read-default";
-import {unlinkSync} from "fs";
+import ReadDefault from '../../dist/string/read-default';
+import {unlinkSync} from 'fs';
 
-it("enable console log", () => {spyOn(console, 'log').and.callThrough()});
+it('enable console log', () => {spyOn(console, 'log').and.callThrough();});
 
 it(`exists, valid`, () => {
 
@@ -42,7 +42,7 @@ describe('not exists', ()=>{
 
     it('cleanup', () => {
         unlinkSync(__dirname + '/temporary.txt');
-    })
+    });
 });
 
 

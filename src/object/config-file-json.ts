@@ -1,5 +1,5 @@
-import {PathLike} from "fs";
-import ConfigFile from "./config-file";
+import {PathLike} from 'fs';
+import ConfigFile from './config-file';
 
 /**
  * @deprecated
@@ -21,6 +21,6 @@ export default function ConfigFileJson(
     reviver ?: Parameters<typeof JSON.parse>[1]
 ) : object {
 
-    return ConfigFile(file, example, (data : string) => JSON.parse(data, reviver))
+    return ConfigFile(file, example, (data : string) => JSON.parse(data, reviver));
 
 }

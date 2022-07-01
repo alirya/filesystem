@@ -1,9 +1,9 @@
-import ConfigSuffix from "../../dist/object/config-suffix-json";
-import Example from "../boolean/example";
-import {existsSync, unlinkSync} from "fs";
-import Json from "../../dist/object/json";
+import ConfigSuffix from '../../dist/object/config-suffix-json';
+import Example from '../boolean/example';
+import {existsSync, unlinkSync} from 'fs';
+import Json from '../../dist/object/json-sync';
 
-it("enable console log", () => {spyOn(console, 'log').and.callThrough()});
+it('enable console log', () => {spyOn(console, 'log').and.callThrough();});
 
 describe('destination not exists', ()=>{
 
@@ -30,7 +30,7 @@ describe('destination not exists', ()=>{
 
     it(`get by Json`, () => {
 
-        let real = Json(target);
+        let real = Json.Parameters(target);
         expect(Example(real)).toBeTrue();
 
         if(Example(real)) {
@@ -44,7 +44,7 @@ describe('destination not exists', ()=>{
         unlinkSync(target);
     });
 
-})
+});
 
 it(`both exists`, () => {
 

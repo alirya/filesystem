@@ -1,5 +1,5 @@
-import {PathLike} from "fs";
-import ConfigSuffix from "./config-suffix";
+import {PathLike} from 'fs';
+import ConfigSuffix from './config-suffix';
 
 /**
  * @deprecated
@@ -20,5 +20,5 @@ export default function ConfigSuffixJson(
     reviver ?: Parameters<typeof JSON.parse>[1]
 ) : object {
 
-    return ConfigSuffix(file, suffix, (data : string) => JSON.parse(data, reviver))
+    return ConfigSuffix(file, suffix, (data : string) => JSON.parse(data, reviver));
 }

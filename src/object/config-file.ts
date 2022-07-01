@@ -1,5 +1,5 @@
-import {copyFileSync, existsSync, PathLike} from "fs";
-import Parser from "./parse-async-parameters";
+import {copyFileSync, existsSync, PathLike} from 'fs';
+import Parser from './parse-async';
 
 /**
  * @deprecated
@@ -23,10 +23,10 @@ export default function ConfigFile(
 
     if(existsSync(file)) {
 
-        return Parser(file, parser);
+        return Parser.Parameters(file, parser);
     }
 
-    let object = Parser(example, parser);
+    let object = Parser.Parameters(example, parser);
     copyFileSync(example, file);
     return object;
 

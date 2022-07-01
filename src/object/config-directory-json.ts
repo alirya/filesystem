@@ -1,5 +1,5 @@
-import {PathLike} from "fs";
-import ConfigDirectory from "./config-directory";
+import {PathLike} from 'fs';
+import ConfigDirectory from './config-directory';
 
 /**
  * @deprecated

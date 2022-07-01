@@ -1,18 +1,18 @@
-import Json from "../../dist/object/json";
-import Example from "../boolean/example";
+import Json from '../../dist/object/json-sync';
+import Example from '../boolean/example';
 
-it("enable console log", () => {spyOn(console, 'log').and.callThrough()});
+it('enable console log', () => {spyOn(console, 'log').and.callThrough();});
 
 
 it(`exists, valid`, () => {
 
-    let object = Json(__dirname + '/real.json');
+    let object = Json.Parameters(__dirname + '/real.json');
     expect(Example(object)).toBeTrue();
 });
 
 it(`exists, valid, extension not json`, () => {
 
-    let object = Json(__dirname + '/real.json');
+    let object = Json.Parameters(__dirname + '/real.json');
     expect(Example(object)).toBeTrue();
 });
 
@@ -21,7 +21,7 @@ it(`exists, invalid`, () => {
 
     try {
 
-        let object = Json(__dirname + '/invalid.json');
+        let object = Json.Parameters(__dirname + '/invalid.json');
         fail('exception should thrown');
 
     } catch (e) {
@@ -35,7 +35,7 @@ it(`not exists`, () => {
 
     try {
 
-        let object = Json(__dirname + '/not-exists.json');
+        let object = Json.Parameters(__dirname + '/not-exists.json');
         fail('exception should thrown');
 
     } catch (e) {

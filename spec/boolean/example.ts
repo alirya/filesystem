@@ -1,21 +1,21 @@
-import Example from "../object/example";
+import Example from '../object/example';
 
 export default function Example(object : object) : object is Example {
 
     // @ts-ignore
-    if(typeof object.number !== "number") {
+    if(typeof object.number !== 'number') {
 
         return false;
     }
 
     // @ts-ignore
-    if(typeof object.string !== "string") {
+    if(typeof object.string !== 'string') {
 
         return false;
     }
 
     // @ts-ignore
-    if(typeof object.boolean !== "boolean") {
+    if(typeof object.boolean !== 'boolean') {
 
         return false;
     }
