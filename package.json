@@ -1,6 +1,6 @@
 {
   "name": "@alirya/filesystem",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "description": "typescript node file system",
   "publishConfig": {
     "directory": "dist"
@@ -10,7 +10,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@alirya/function": "^0.16.2",
+    "@alirya/function": "^0.17.0",
     "@types/node": "12.12.59",
     "tslib": "^2.3.1"
   },
