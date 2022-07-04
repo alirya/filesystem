@@ -49,15 +49,15 @@ export function ParseSyncParameters<Assumption extends object>(
  */
 export function ParseSyncParameter<
     Assumption extends object
->(  {
-        path,
-        callback,
-        defaults
-    } : {
-        path : PathLike,
-        callback : Callable<[string], Assumption>,
-        defaults ?: Callable<[Error,  PathLike], Assumption>,
-    }
+    >(  {
+            path,
+            callback,
+            defaults
+        } : {
+            path : PathLike,
+            callback : Callable<[string], Assumption>,
+            defaults ?: Callable<[Error,  PathLike], Assumption>,
+        }
 ) : Assumption {
 
     return ParseSyncParameters(path, callback, defaults);

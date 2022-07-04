@@ -1,4 +1,4 @@
-import Json from '../../dist/object/json-sync';
+import Json from '../../dist/read/json-sync';
 import Example from '../boolean/example';
 
 it('enable console log', () => {spyOn(console, 'log').and.callThrough();});

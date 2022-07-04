@@ -29,10 +29,10 @@ export type JsonSyncArgument<Assumption extends object> = {
 };
 
 export function JsonSyncParameter<Assumption extends object>({
-    file,
-    defaults,
-    reviver,
-} : JsonSyncArgument<Assumption>) {
+                                                                 file,
+                                                                 defaults,
+                                                                 reviver,
+                                                             } : JsonSyncArgument<Assumption>) {
 
     return JsonSyncParameters(file, defaults, reviver);
 }
