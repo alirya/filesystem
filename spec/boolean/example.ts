@@ -1,4 +1,4 @@
-import Example from '../object/example';
+import Example from '../object/example.js';
 
 export default function Example(object : object) : object is Example {
 

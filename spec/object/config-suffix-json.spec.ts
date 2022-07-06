@@ -1,7 +1,7 @@
-// import ConfigSuffix from '../../dist/object/config-suffix-json';
-// import Example from '../boolean/example';
+// import ConfigSuffix from '../../dist/object/config-suffix-json.js';
+// import Example from '../boolean/example.js';
 // import {existsSync, unlinkSync} from 'fs';
-// import Json from '../../dist/object/json-sync';
+// import Json from '../../dist/object/json-sync.js';
 //
 // it('enable console log', () => {spyOn(console, 'log').and.callThrough();});
 //

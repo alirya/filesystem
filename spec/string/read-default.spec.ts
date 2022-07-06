@@ -1,4 +1,4 @@
-import ReadDefault from '../../dist/string/read-default';
+import ReadDefault from '../../dist/string/read-default.js';
 import {unlinkSync} from 'fs';
 
 it('enable console log', () => {spyOn(console, 'log').and.callThrough();});

@@ -1,5 +1,5 @@
-import Json from '../../dist/read/json-sync';
-import Example from '../boolean/example';
+import Json from '../../dist/read/json-sync.js';
+import Example from '../boolean/example.js';
 
 it('enable console log', () => {spyOn(console, 'log').and.callThrough();});
 
