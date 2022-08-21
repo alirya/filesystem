@@ -36,6 +36,9 @@
     "utility-types": "^3.10.0",
     "package-version-git-tag": "^3.0.0"
   },
+  "esm": {
+    "cache": false
+  },
   "scripts": {
     "spec-run-js": "node -r esm node_modules/jasmine/bin/jasmine.js --config=./jasmine.json",
     "spec-run": "node -r esm node_modules/jasmine/bin/jasmine.js --config=./jasmine.json --reporter=jasmine-ts-console-reporter",
