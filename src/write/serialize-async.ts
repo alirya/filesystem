@@ -1,5 +1,5 @@
 import {PathLike, promises} from "fs";
-import Callable from "../../../function/dist/callable";
+import Callable from '@alirya/function/callable';
 
 
 /**

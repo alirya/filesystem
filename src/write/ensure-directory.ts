@@ -25,8 +25,8 @@ export function EnsureDirectoryParameter(
 }
 
 
-namespace JsonAsync {
+namespace EnsureDirectory {
     export const Parameters = EnsureDirectoryParameters;
     export const Parameter = EnsureDirectoryParameter;
 }
-export default JsonAsync;
+export default EnsureDirectory;
