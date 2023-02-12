@@ -1,5 +1,5 @@
-import {CallbackParameters} from '@alirya/function/assert/callback';
-import ExistsNumberError from './throwable/exists';
+import {CallbackParameters} from '@alirya/function/assert/callback.js';
+import ExistsNumberError from './throwable/exists.js';
 import {existsSync, PathLike} from 'fs';
 
 export function ExistsParameters(

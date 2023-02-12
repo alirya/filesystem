@@ -1,5 +1,5 @@
 import {PathLike, writeFileSync} from "fs";
-import Callable from '@alirya/function/callable';
+import Callable from '@alirya/function/callable.js';
 
 export function SerializeSyncParameters<
     Type extends object

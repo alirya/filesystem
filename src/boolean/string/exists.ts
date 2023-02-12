@@ -2,7 +2,7 @@ import {PathLike} from 'fs';
 
 export function ExistsParameters(valid : boolean, path : PathLike) : string {
 
-    let string = (<any>path).toString();
+    const string = (<any>path).toString();
 
     if(valid) {
 

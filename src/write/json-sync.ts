@@ -1,5 +1,5 @@
 import {PathLike, writeFileSync} from "fs";
-import {SerializeSyncParameters} from "./serialize-sync";
+import {SerializeSyncParameters} from './serialize-sync.js';
 
 
 export function JsonSyncParameters<

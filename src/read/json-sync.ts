@@ -1,6 +1,6 @@
 import {PathLike} from 'fs';
-import Callable from '@alirya/function/callable';
-import ParseSyncParameters from './parse-sync';
+import Callable from '@alirya/function/callable.js';
+import ParseSyncParameters from './parse-sync.js';
 
 /**
  * Parse file to object

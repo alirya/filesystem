@@ -1,5 +1,5 @@
 import {PathLike} from 'fs';
-import ParseAsyncParameters from './parse-async';
+import ParseAsyncParameters from './parse-async.js';
 
 /**
  * wrapper for {@link Parser} for json

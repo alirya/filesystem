@@ -1,5 +1,5 @@
 import {ensureDir, EnsureOptions} from "fs-extra";
-import {JsonAsyncParameter, JsonAsyncParameters} from "./json-async";
+import {JsonAsyncParameter, JsonAsyncParameters} from './json-async.js';
 
 export type EnsureDirectoryOption = EnsureOptions | number;
 

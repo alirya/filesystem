@@ -1,6 +1,6 @@
 import {PathLike, promises} from "fs";
-import Callable from '@alirya/function/callable';
-import {SerializeAsyncParameters} from "./serialize-async";
+import Callable from '@alirya/function/callable.js';
+import {SerializeAsyncParameters} from './serialize-async.js';
 
 
 export function JsonAsyncParameters<

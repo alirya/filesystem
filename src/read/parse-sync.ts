@@ -1,5 +1,5 @@
 import {PathLike, readFileSync} from 'fs';
-import Callable from '@alirya/function/callable';
+import Callable from '@alirya/function/callable.js';
 
 /**
  * Parse file to object
