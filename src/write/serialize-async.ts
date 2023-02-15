@@ -1,4 +1,4 @@
-import {PathLike, promises} from "fs";
+import {PathLike, promises} from 'fs';
 import Callable from '@alirya/function/callable.js';
 
 

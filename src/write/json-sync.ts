@@ -1,4 +1,4 @@
-import {PathLike, writeFileSync} from "fs";
+import {PathLike, writeFileSync} from 'fs';
 import {SerializeSyncParameters} from './serialize-sync.js';
 
 
