@@ -37,3 +37,7 @@ namespace JsonAsync {
     export const Parameter = JsonAsyncParameter;
 }
 export default JsonAsync;
+
+export {JsonAsync as WriteJsonAsync};
+export {JsonAsyncParameters as WriteJsonAsyncParameters};
+export {JsonAsyncParameter as WriteJsonAsyncParameter};

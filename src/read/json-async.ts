@@ -52,3 +52,7 @@ namespace JsonAsync {
     export const Parameter = JsonAsyncParameter;
 }
 export default JsonAsync;
+
+export {JsonAsync as ReadJsonAsync}
+export {JsonAsyncParameters as ReadJsonAsyncParameters}
+export {JsonAsyncParameter as ReadJsonAsyncParameter}

@@ -39,3 +39,7 @@ namespace SerializeSync {
     export const Parameter = SerializeSyncParameter;
 }
 export default SerializeSync;
+
+export {SerializeSync as WriteSerializeSync};
+export {SerializeSyncParameters as WriteSerializeSyncParameters};
+export {SerializeSyncParameter as WriteSerializeSyncParameter};

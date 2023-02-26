@@ -43,3 +43,7 @@ namespace SerializeAsync {
     export const Parameter = SerializeAsyncParameter;
 }
 export default SerializeAsync;
+
+export {SerializeAsync as WriteSerializeAsync};
+export {SerializeAsyncParameters as WriteSerializeAsyncParameters};
+export {SerializeAsyncParameter as WriteSerializeAsyncParameter};

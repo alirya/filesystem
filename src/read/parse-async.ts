@@ -66,3 +66,7 @@ namespace ParseAsync {
     export const Parameter = ParseAsyncParameter;
 }
 export default ParseAsync;
+
+export {ParseAsync as ReadParseAsync}
+export {ParseAsyncParameters as ReadParseAsyncParameters}
+export {ParseAsyncParameter as ReadParseAsyncParameter}

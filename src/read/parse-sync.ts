@@ -69,3 +69,7 @@ namespace ParseSync {
     export const Parameter = ParseSyncParameter;
 }
 export default ParseSync;
+
+export {ParseSync as ReadParseSync}
+export {ParseSyncParameters as ReadParseSyncParameters}
+export {ParseSyncParameter as ReadParseSyncParameter}

@@ -42,3 +42,7 @@ namespace JsonSync {
     export const Parameter = JsonSyncParameter;
 }
 export default JsonSync;
+
+export {JsonSync as WriteJsonSync};
+export {JsonSyncParameters as WriteJsonSyncParameters};
+export {JsonSyncParameter as WriteJsonSyncParameter};
