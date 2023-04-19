@@ -2,7 +2,7 @@
   "compilerOptions": {
     "removeComments": false,
     "moduleResolution": "node",
-    "module": "es2015",
+    "module": "es2020",
     "declaration": true,
     "target": "es2015",
     "outDir": "./dist-spec",
@@ -13,7 +13,7 @@
     "downlevelIteration": true,
     "strictNullChecks": true,
     "incremental": true,
-    "tsBuildInfoFile": "./dist-spec/compiler-cache.json",
+    "tsBuildInfoFile": "./dist-spec/.compiler-cache.json",
     "strictPropertyInitialization": true,
     "lib": [
       "es2016",
