@@ -1,5 +1,5 @@
 import {PathLike} from 'fs';
-import Callable from '@alirya/function/callable.js';
+import Callable from '@axiona/function/callable.js';
 import ParseSyncParameters from './parse-sync.js';
 
 /**

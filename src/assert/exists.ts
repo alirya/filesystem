@@ -1,4 +1,4 @@
-import {CallbackParameters} from '@alirya/function/assert/callback.js';
+import {CallbackParameters} from '@axiona/function/assert/callback.js';
 import ExistsNumberError from './throwable/exists.js';
 import {existsSync, PathLike} from 'fs';
 
