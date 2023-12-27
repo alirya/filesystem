@@ -1,4 +1,4 @@
-import {ensureDir, EnsureOptions} from "fs-extra";
+import {ensureDir, EnsureOptions} from 'fs-extra';
 import {JsonAsyncParameter, JsonAsyncParameters} from './json-async.js';
 
 export type EnsureDirectoryOption = EnsureOptions | number;
@@ -21,7 +21,7 @@ export function EnsureDirectoryParameter(
     }
 ) : Promise<string> {
 
-    return EnsureDirectoryParameters(path, option)
+    return EnsureDirectoryParameters(path, option);
 }
 
 

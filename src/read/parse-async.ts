@@ -67,6 +67,6 @@ namespace ParseAsync {
 }
 export default ParseAsync;
 
-export {ParseAsync as ReadParseAsync}
-export {ParseAsyncParameters as ReadParseAsyncParameters}
-export {ParseAsyncParameter as ReadParseAsyncParameter}
+export {ParseAsync as ReadParseAsync};
+export {ParseAsyncParameters as ReadParseAsyncParameters};
+export {ParseAsyncParameter as ReadParseAsyncParameter};

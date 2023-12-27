@@ -1,5 +1,5 @@
 import {PathLike, readFileSync} from 'fs';
-import Callable from '@axiona/function/callable.js';
+import Callable from '@axiona/function/callable';
 
 /**
  * Parse file to object
@@ -70,6 +70,6 @@ namespace ParseSync {
 }
 export default ParseSync;
 
-export {ParseSync as ReadParseSync}
-export {ParseSyncParameters as ReadParseSyncParameters}
-export {ParseSyncParameter as ReadParseSyncParameter}
+export {ParseSync as ReadParseSync};
+export {ParseSyncParameters as ReadParseSyncParameters};
+export {ParseSyncParameter as ReadParseSyncParameter};

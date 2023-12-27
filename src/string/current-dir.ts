@@ -1,7 +1,7 @@
 import {dirname} from 'path';
-import CurrentFile from "./current-file.js";
+import CurrentFile from './current-file.js';
 
 export default function CurrentDir(importMeta: ImportMeta) : string {
 
-    return dirname(CurrentFile(importMeta))
+    return dirname(CurrentFile(importMeta));
 }

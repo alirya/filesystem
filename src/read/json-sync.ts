@@ -44,6 +44,6 @@ namespace JsonSync {
 }
 export default JsonSync;
 
-export {JsonSync as ReadJsonSync}
-export {JsonSyncParameters as ReadJsonSyncParameters}
-export {JsonSyncParameter as ReadJsonSyncParameter}
+export {JsonSync as ReadJsonSync};
+export {JsonSyncParameters as ReadJsonSyncParameters};
+export {JsonSyncParameter as ReadJsonSyncParameter};

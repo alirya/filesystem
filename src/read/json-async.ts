@@ -53,6 +53,6 @@ namespace JsonAsync {
 }
 export default JsonAsync;
 
-export {JsonAsync as ReadJsonAsync}
-export {JsonAsyncParameters as ReadJsonAsyncParameters}
-export {JsonAsyncParameter as ReadJsonAsyncParameter}
+export {JsonAsync as ReadJsonAsync};
+export {JsonAsyncParameters as ReadJsonAsyncParameters};
+export {JsonAsyncParameter as ReadJsonAsyncParameter};
