@@ -1,6 +1,6 @@
 {
   "name": "@axiona/filesystem",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "description": "typescript node file system",
   "publishConfig": {
     "directory": "dist"
@@ -13,7 +13,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@axiona/function": "^0.17.1",
+    "@axiona/function": "^0.18.0",
     "tslib": "^2.5.0",
     "@types/fs-extra": "^9.0.13",
     "fs-extra": "^10.1.0"
